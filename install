@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Move conkyrc to ~/.conkyrc
+cp -av conkyrc ~/.conkyrc
+
+# Move conky to ~/.conky
+cp -av conky ~/.conky
+
+# Move lua to ~/.lua
+cp -av lua ~/.lua
+
+# Move config to ~/.config
+cp -av config ~/.config
+
+# Move TODO to ~/TODO
+cp -av TODO ~/TODO
